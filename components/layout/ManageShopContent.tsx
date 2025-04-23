@@ -182,7 +182,7 @@ export default function ManageShopContent() {
                         title="Deactive"
                         onClick={SetNewStatus}
                       >
-                        Suspend
+                        Deactive
                       </button>
                     ) : (
                       <button
@@ -191,7 +191,7 @@ export default function ManageShopContent() {
                         onClick={SetNewStatus}
                         title="Activate"
                       >
-                        Unsuspend
+                        Activate
                       </button>
                     )}
                   </td>
