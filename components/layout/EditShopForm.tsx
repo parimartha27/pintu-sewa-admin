@@ -34,8 +34,8 @@ export default function EditShopForm() {
   const router = useRouter();
   useEffect(() => {
     const token = Cookies.get("token");
-    if (token) {
-      router.push("/admin");
+    if (!token) {
+      router.push("/admin/login");
     }
     const fetchData = async () => {
       try {
