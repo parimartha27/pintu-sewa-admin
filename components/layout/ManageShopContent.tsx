@@ -110,9 +110,9 @@ export default function ManageShopContent() {
     const target = e.currentTarget;
 
     const shopId = target.getAttribute("data-shopid");
-    router.push(`/admin/manage-shop/edit`);
     localStorage.removeItem("editPayloadShop"); // pastikan kosong dulu
     localStorage.setItem("editPayloadShop", JSON.stringify({ shopId }));
+    router.push(`/admin/manage-shop/edit`);
   };
 
   return (
