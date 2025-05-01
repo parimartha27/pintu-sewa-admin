@@ -57,7 +57,7 @@ export default function SideBar({ navigation }: { navigation: string }) {
         <button
           onClick={() => {
             Cookies.remove("token")
-            router.push("/login")
+            router.push("/")
           }}
           className='flex m-5 py-4 px-2 items-center rounded-xl justify-center bg-blue-400 gap-2 text-md  text-white cursor-pointer'
         >
