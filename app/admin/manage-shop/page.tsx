@@ -7,7 +7,7 @@ export default function ManageShop() {
     <>
     <div className="flex flex-col md:flex-row min-h-screen bg-gray-100 text-gray-800">
         <SideBar navigation='toko'></SideBar>
-        <NoContent></NoContent>
+        <ManageShopContent></ManageShopContent>
     </div>
     </>
   );
