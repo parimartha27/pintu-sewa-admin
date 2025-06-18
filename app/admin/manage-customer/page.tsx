@@ -1,4 +1,5 @@
 import ManageCustomerContent from '@/components/layout/ManageCustomerContent';
+import NoContent from '@/components/layout/NoContent';
 import SideBar from '@/components/layout/SideBar';
 
 export default function ManageCustomer() {
