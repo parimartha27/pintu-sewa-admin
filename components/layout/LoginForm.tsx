@@ -35,7 +35,7 @@ export default function LoginForm() {
     e.preventDefault();
 
     const response = await axios.post<LoginResponse>(
-      "https://pintu-sewa.up.railway.app/api/admin/login",
+      "https://pintu-sewa-backend.up.railway.app/api/admin/login",
       payload
     );
     console.log(response);
